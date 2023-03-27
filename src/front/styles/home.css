@@ -1,7 +1,23 @@
-/*
-    home.css: This website contains selectors only used in home.css
-
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+body {
+  background-color: #1F4F59;
+  color: white;
+}
+.navbarColor {
+  background: #54C0CC !important;
+  color: white;
+}
+.footerColor {
+  background: #54C0CC !important;
+  font-family: "Pompiere", "normal";
+}
+.contenedor-principal{
+    margin-top: 50px;
+}
+.carta-contenedora{
+    margin: 0 auto;
+    width: 1054px;
+    height: 595px;
+    background: #54C0CC;
+    border: 1px solid #54C0CC;
+    border-radius: 15px;  
+}
